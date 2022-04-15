@@ -1,0 +1,45 @@
+{
+  "name": "better-yourself",
+  "version": "1.0.0",
+  "description": "This is a Cli tool written in Node that can help you quickly build front-end basic projects",
+  "main": "index.js",
+  "bin": {
+    "better-yourself": "./index.js"
+  },
+  "scripts": {
+    "prettier": "prettier --write .",
+    "prepare": "husky install",
+    "commit": "cz"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "better-yourself"
+  ],
+  "author": "tcy",
+  "license": "ISC",
+  "homepage": "https://github.com/Betteryourself-tcy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Betteryourself-tcy/web-cli.git"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.5",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
