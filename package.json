@@ -1,6 +1,6 @@
 {
   "name": "better-yourself",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is a Cli tool written in Node that can help you quickly build front-end basic projects",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Betteryourself-tcy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Betteryourself-tcy/web-cli.git"
+    "url": "https://github.com/Betteryourself-tcy/web-cli"
   },
   "dependencies": {
     "commander": "^8.2.0",
