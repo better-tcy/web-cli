@@ -1,6 +1,6 @@
 {
   "name": "better-yourself",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This is a Cli tool written in Node that can help you quickly build front-end basic projects",
   "main": "index.js",
   "bin": {
